@@ -1,0 +1,18 @@
+{
+  "scrape_timestamp": 1761209733.0703611,
+  "target_combinations": 9,
+  "successful_combinations": 0,
+  "total_json_files_saved": 0,
+  "models": [
+    "Llama 3.3 70B Instruct",
+    "gpt-oss 120B",
+    "DeepSeek R1 0528"
+  ],
+  "sequences": [
+    "1K / 1K",
+    "1K / 8K",
+    "8K / 1K"
+  ],
+  "successful_combinations_detail": [],
+  "output_directory": "json_data/raw_json_files"
+}

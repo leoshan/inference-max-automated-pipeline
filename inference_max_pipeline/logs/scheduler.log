@@ -1,0 +1,76 @@
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - 执行一次性管道任务
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - ============================================================
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - 执行时间: 2025-10-23 16:50:20
+2025-10-23 16:50:20,766 - PipelineScheduler - INFO - ============================================================
+2025-10-23 16:50:20,770 - PipelineScheduler - ERROR - 定时管道执行异常: 'InferenceMaxPipeline' object has no attribute 'pipeline_id'
+2025-10-23 16:50:20,771 - PipelineScheduler - ERROR - Traceback (most recent call last):
+  File "/root/semi-bench/inference_max_pipeline/scripts/scheduler.py", line 70, in execute_pipeline
+    self.pipeline = InferenceMaxPipeline()
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/semi-bench/inference_max_pipeline/scripts/inference_max_pipeline.py", line 36, in __init__
+    self.setup_logging()
+  File "/root/semi-bench/inference_max_pipeline/scripts/inference_max_pipeline.py", line 61, in setup_logging
+    log_file = log_dir / f"pipeline_{self.pipeline_id}.log"
+                                     ^^^^^^^^^^^^^^^^
+AttributeError: 'InferenceMaxPipeline' object has no attribute 'pipeline_id'
+
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - 执行一次性管道任务
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - ============================================================
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - 执行时间: 2025-10-23 16:54:52
+2025-10-23 16:54:52,132 - PipelineScheduler - INFO - ============================================================
+2025-10-23 16:54:52,136 - InferenceMaxPipeline - INFO - Pipeline 20251023_165452 initialized
+2025-10-23 16:54:52,136 - InferenceMaxPipeline - INFO - Configuration loaded from: config/pipeline_config.yaml
+2025-10-23 16:54:52,136 - InferenceMaxPipeline - INFO - 开始执行 InferenceMAX 数据管道 20251023_165452
+2025-10-23 16:54:52,137 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:54:52,137 - InferenceMaxPipeline - INFO - STEP: 数据爬取
+2025-10-23 16:54:52,137 - InferenceMaxPipeline - INFO - INFO: 开始从 InferenceMAX 网站爬取数据
+2025-10-23 16:54:52,137 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:54:52,137 - InferenceMaxPipeline - INFO - 执行网页数据爬取...
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - 爬取完成，获得 18 个JSON文件
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - STEP: 数据清理
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - INFO: 移除无效和小文件
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,132 - InferenceMaxPipeline - INFO - 执行数据清理...
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - 清理完成，保留 18 个有效文件
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - STEP: CSV转换
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - INFO: 将JSON数据转换为分离的CSV文件
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,160 - InferenceMaxPipeline - INFO - 执行CSV转换...
+2025-10-23 16:55:33,237 - InferenceMaxPipeline - INFO - 转换完成: Interactivity(163,974 bytes), E2E(163,365 bytes)
+2025-10-23 16:55:33,238 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,238 - InferenceMaxPipeline - INFO - STEP: CSV合并
+2025-10-23 16:55:33,238 - InferenceMaxPipeline - INFO - INFO: 将两个CSV文件合并为最终数据集
+2025-10-23 16:55:33,238 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,238 - InferenceMaxPipeline - INFO - 执行CSV合并...
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - 合并完成: 最终文件大小 184,334 bytes
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - 数据完整性验证通过: 1339 条记录
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - STEP: 版本归档
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - INFO: 保存当前版本到历史档案
+2025-10-23 16:55:33,260 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,267 - InferenceMaxPipeline - INFO - 已归档: inference_max_interactivity.csv
+2025-10-23 16:55:33,274 - InferenceMaxPipeline - INFO - 已归档: inference_max_e2e.csv
+2025-10-23 16:55:33,282 - InferenceMaxPipeline - INFO - 已归档: inference_max_merged.csv
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - 已归档: SEPARATED_CSV_CONVERSION_REPORT.md
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - 已归档: CSV_MERGE_REPORT.md
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - 版本归档完成: /root/semi-bench/inference_max_pipeline/data_archive/version_20251023_165452
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - 🎉 数据管道执行成功！
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - STEP: 生成报告
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - INFO: 创建管道执行报告 (成功: True)
+2025-10-23 16:55:33,283 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-23 16:55:33,284 - InferenceMaxPipeline - INFO - 最终报告已生成: /root/semi-bench/inference_max_pipeline/reports/pipeline_report_20251023_165452.md
+2025-10-23 16:55:33,284 - InferenceMaxPipeline - INFO - 管道执行完成
+2025-10-23 16:55:33,284 - InferenceMaxPipeline - INFO - 总耗时: 0:00:41
+2025-10-23 16:55:33,284 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
+2025-10-23 16:55:33,284 - PipelineScheduler - INFO - ✅ 定时管道执行成功
+2025-10-23 19:42:06,716 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-23 19:42:06,716 - PipelineScheduler - INFO - 启动调度器守护进程
+2025-10-23 19:42:06,717 - PipelineScheduler - INFO - 设置定时任务: 0 1 * * *
+2025-10-23 19:42:06,717 - PipelineScheduler - INFO - 调度任务设置完成

@@ -1,0 +1,73 @@
+{
+  "scrape_timestamp": 1761185770.0458202,
+  "target_combinations": 9,
+  "successful_combinations": 9,
+  "total_json_files_saved": 36,
+  "models": [
+    "Llama 3.3 70B Instruct",
+    "gpt-oss 120B",
+    "DeepSeek R1 0528"
+  ],
+  "sequences": [
+    "1K / 1K",
+    "1K / 8K",
+    "8K / 1K"
+  ],
+  "successful_combinations_detail": [
+    {
+      "index": 1,
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 1K",
+      "files_saved": 4
+    },
+    {
+      "index": 2,
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 8K",
+      "files_saved": 4
+    },
+    {
+      "index": 3,
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "8K / 1K",
+      "files_saved": 4
+    },
+    {
+      "index": 4,
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 1K",
+      "files_saved": 4
+    },
+    {
+      "index": 5,
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 8K",
+      "files_saved": 4
+    },
+    {
+      "index": 6,
+      "model": "gpt-oss 120B",
+      "sequence": "8K / 1K",
+      "files_saved": 4
+    },
+    {
+      "index": 7,
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 1K",
+      "files_saved": 4
+    },
+    {
+      "index": 8,
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 8K",
+      "files_saved": 4
+    },
+    {
+      "index": 9,
+      "model": "DeepSeek R1 0528",
+      "sequence": "8K / 1K",
+      "files_saved": 4
+    }
+  ],
+  "output_directory": "json_data/raw_json_files"
+}

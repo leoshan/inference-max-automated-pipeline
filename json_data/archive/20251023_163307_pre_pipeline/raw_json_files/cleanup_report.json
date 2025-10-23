@@ -1,0 +1,159 @@
+{
+  "cleanup_timestamp": 1761188171.4066815,
+  "summary": {
+    "total_files": 18,
+    "valid_files": 18,
+    "invalid_files": 0,
+    "removed_files": 18,
+    "total_size_bytes": 1305095,
+    "valid_size_bytes": 1305095,
+    "invalid_size_bytes": 0,
+    "space_saved_bytes": 0
+  },
+  "model_statistics": {
+    "gpt-oss 120B": {
+      "files": 6,
+      "size": 380270,
+      "data_points": 780
+    },
+    "Llama 3.3 70B Instruct": {
+      "files": 6,
+      "size": 663567,
+      "data_points": 1362
+    },
+    "DeepSeek R1 0528": {
+      "files": 6,
+      "size": 261258,
+      "data_points": 536
+    }
+  },
+  "valid_files_detail": [
+    {
+      "filename": "04_gpt-oss_120B_1K___1K_02.json",
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 63207,
+      "data_points": 130
+    },
+    {
+      "filename": "05_gpt-oss_120B_1K___8K_01.json",
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 63351,
+      "data_points": 130
+    },
+    {
+      "filename": "01_Llama_3_3_70B_Instruct_1K___1K_01.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 110591,
+      "data_points": 227
+    },
+    {
+      "filename": "09_DeepSeek_R1_0528_8K___1K_04.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 46882,
+      "data_points": 96
+    },
+    {
+      "filename": "03_Llama_3_3_70B_Instruct_8K___1K_03.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 110855,
+      "data_points": 227
+    },
+    {
+      "filename": "05_gpt-oss_120B_1K___8K_04.json",
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 63259,
+      "data_points": 130
+    },
+    {
+      "filename": "06_gpt-oss_120B_8K___1K_02.json",
+      "model": "gpt-oss 120B",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 63595,
+      "data_points": 130
+    },
+    {
+      "filename": "04_gpt-oss_120B_1K___1K_01.json",
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 63421,
+      "data_points": 130
+    },
+    {
+      "filename": "02_Llama_3_3_70B_Instruct_1K___8K_04.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 110430,
+      "data_points": 227
+    },
+    {
+      "filename": "02_Llama_3_3_70B_Instruct_1K___8K_03.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 110446,
+      "data_points": 227
+    },
+    {
+      "filename": "08_DeepSeek_R1_0528_1K___8K_01.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 32188,
+      "data_points": 66
+    },
+    {
+      "filename": "07_DeepSeek_R1_0528_1K___1K_01.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 51619,
+      "data_points": 106
+    },
+    {
+      "filename": "01_Llama_3_3_70B_Instruct_1K___1K_02.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 110441,
+      "data_points": 227
+    },
+    {
+      "filename": "06_gpt-oss_120B_8K___1K_01.json",
+      "model": "gpt-oss 120B",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 63437,
+      "data_points": 130
+    },
+    {
+      "filename": "09_DeepSeek_R1_0528_8K___1K_03.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 46844,
+      "data_points": 96
+    },
+    {
+      "filename": "07_DeepSeek_R1_0528_1K___1K_02.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 1K",
+      "file_size_bytes": 51572,
+      "data_points": 106
+    },
+    {
+      "filename": "03_Llama_3_3_70B_Instruct_8K___1K_04.json",
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "8K / 1K",
+      "file_size_bytes": 110804,
+      "data_points": 227
+    },
+    {
+      "filename": "08_DeepSeek_R1_0528_1K___8K_02.json",
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 8K",
+      "file_size_bytes": 32153,
+      "data_points": 66
+    }
+  ],
+  "invalid_files_detail": []
+}

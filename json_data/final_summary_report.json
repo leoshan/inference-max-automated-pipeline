@@ -1,0 +1,28 @@
+{
+  "report_generated": "2025-10-23T10:01:58.615446",
+  "summary_statistics": {
+    "total_combinations": 1,
+    "models_tested": [
+      "Llama 3.3 70B Instruct"
+    ],
+    "sequences_tested": [
+      "1K / 1K"
+    ],
+    "hardware_found": [
+      "mi300x",
+      "mi325x",
+      "h200",
+      "h100",
+      "h200_trt",
+      "b200_trt",
+      "mi355x",
+      "b200"
+    ],
+    "precisions_found": [
+      "fp8",
+      "fp4"
+    ],
+    "data_points_total": 4
+  },
+  "combinations": []
+}

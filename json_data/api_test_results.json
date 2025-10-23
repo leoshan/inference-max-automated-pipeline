@@ -1,0 +1,30 @@
+{
+  "/api/data": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/api/benchmarks": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/api/models": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/api/results": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/data.json": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/benchmarks.json": {
+    "status": 404,
+    "error": "HTTP 404"
+  },
+  "/models.json": {
+    "status": 404,
+    "error": "HTTP 404"
+  }
+}
