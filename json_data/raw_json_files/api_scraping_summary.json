@@ -1,0 +1,334 @@
+{
+  "successful_collections": [
+    {
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 150,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_01.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 150,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_01.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:04:57.196607"
+    },
+    {
+      "model": "gpt-oss 120B",
+      "sequence": "1K / 8K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 150,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_02.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 150,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_02.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:04:58.846086"
+    },
+    {
+      "model": "gpt-oss 120B",
+      "sequence": "8K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 149,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_03.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 149,
+          "b200_trt_count": 20,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_03.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:05:00.090297"
+    },
+    {
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 106,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "gb200",
+            "gb200_mtp",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_01.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 106,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "gb200",
+            "gb200_mtp",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_01.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:05:01.331609"
+    },
+    {
+      "model": "DeepSeek R1 0528",
+      "sequence": "1K / 8K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 65,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_02.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 65,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_02.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:05:02.594213"
+    },
+    {
+      "model": "DeepSeek R1 0528",
+      "sequence": "8K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 95,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "gb200",
+            "gb200_mtp",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_03.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 95,
+          "b200_trt_count": 19,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "gb200",
+            "gb200_mtp",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_03.json"
+        }
+      },
+      "timestamp": "2025-10-24T10:05:03.825564"
+    }
+  ],
+  "failed_collections": [
+    {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": false,
+          "error": "Failed to fetch data"
+        },
+        "interactivity": {
+          "success": false,
+          "error": "Failed to fetch data"
+        }
+      },
+      "timestamp": "2025-10-24T10:04:52.831988"
+    },
+    {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 8K",
+      "data_types": {
+        "e2e": {
+          "success": false,
+          "error": "Failed to fetch data"
+        },
+        "interactivity": {
+          "success": false,
+          "error": "Failed to fetch data"
+        }
+      },
+      "timestamp": "2025-10-24T10:04:54.734897"
+    },
+    {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "8K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": false,
+          "error": "Failed to fetch data"
+        },
+        "interactivity": {
+          "success": false,
+          "error": "Failed to fetch data"
+        }
+      },
+      "timestamp": "2025-10-24T10:04:55.970875"
+    }
+  ],
+  "total_files": 12,
+  "total_records": 1430,
+  "total_b200_trt": 234,
+  "model_stats": {
+    "Llama 3.3 70B Instruct": {
+      "files": 0,
+      "records": 0,
+      "b200_trt": 0,
+      "hwkeys": [],
+      "successful_combinations": 0
+    },
+    "gpt-oss 120B": {
+      "files": 6,
+      "records": 898,
+      "b200_trt": 120,
+      "hwkeys": [
+        "b200",
+        "b200_trt",
+        "h100",
+        "h200",
+        "h200_trt",
+        "mi300x",
+        "mi325x",
+        "mi355x"
+      ],
+      "successful_combinations": 3
+    },
+    "DeepSeek R1 0528": {
+      "files": 6,
+      "records": 532,
+      "b200_trt": 114,
+      "hwkeys": [
+        "b200",
+        "b200_trt",
+        "gb200",
+        "gb200_mtp",
+        "h200",
+        "h200_trt",
+        "mi300x",
+        "mi325x",
+        "mi355x"
+      ],
+      "successful_combinations": 3
+    }
+  },
+  "elapsed_time": 12.225097894668579,
+  "timestamp": "2025-10-24T10:05:05.057088"
+}

@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.append('/root/semi-bench')
 
 try:
-    from comprehensive_scraper import main as scrape_main
+    from api_scraper import scrape_api_data
     from clean_json_files import main as clean_main
     from convert_to_separated_csv import main as convert_main
     from join_csv_files import main as join_main
@@ -97,31 +97,45 @@ class InferenceMaxPipeline:
         self.logger.info(f"{'='*50}")
 
     def scrape_data(self):
-        """步骤1: 爬取原始数据"""
-        self.log_step("数据爬取", "开始从 InferenceMAX 网站爬取数据")
+        """步骤1: 使用API直接采集数据"""
+        self.log_step("数据采集", "开始从 InferenceMAX API 采集数据")
 
         try:
             # 临时修改工作目录到项目根目录
             original_cwd = os.getcwd()
             os.chdir(self.config['paths']['base_dir'])
 
-            # 执行爬取脚本
-            self.logger.info("执行网页数据爬取...")
-            scrape_main()
+            # 获取配置
+            models = self.config['targets']['models']
+            sequences = self.config['targets']['sequences']
+            output_dir = self.config['paths']['raw_data_dir']
+
+            self.logger.info(f"执行API数据采集...")
+            self.logger.info(f"目标: {len(models)} 模型 × {len(sequences)} 序列")
+            self.logger.info(f"输出目录: {output_dir}")
+
+            # 执行API采集
+            scrape_results = scrape_api_data(models, sequences, output_dir)
 
             # 恢复工作目录
             os.chdir(original_cwd)
 
-            # 验证爬取结果
-            raw_data_dir = Path(self.config['paths']['base_dir']) / self.config['paths']['raw_data_dir']
+            # 验证采集结果
+            raw_data_dir = Path(self.config['paths']['base_dir']) / output_dir
             json_files = list(raw_data_dir.glob("*.json"))
             json_files = [f for f in json_files if not any(x in f.name.lower()
-                       for x in ['readme', 'summary', 'cleanup', 'report'])]
+                       for x in ['readme', 'summary', 'cleanup', 'report', 'api_scraping_summary'])]
 
-            self.logger.info(f"爬取完成，获得 {len(json_files)} 个JSON文件")
+            self.logger.info(f"API采集完成，获得 {len(json_files)} 个JSON文件")
+            self.logger.info(f"总记录数: {scrape_results.get('total_records', 0)}")
+            self.logger.info(f"b200_trt数据: {scrape_results.get('total_b200_trt', 0)} 条")
 
-            if len(json_files) < 10:  # 期望的最少文件数
-                raise ValueError(f"爬取的文件数量不足: {len(json_files)} < 10")
+            # 检查b200_trt数据
+            if scrape_results.get('total_b200_trt', 0) == 0:
+                self.logger.warning("未采集到任何b200_trt数据，可能需要检查网络或API端点")
+
+            if len(json_files) < 6:  # 期望的最少文件数
+                raise ValueError(f"采集的文件数量不足: {len(json_files)} < 6")
 
             return True
 

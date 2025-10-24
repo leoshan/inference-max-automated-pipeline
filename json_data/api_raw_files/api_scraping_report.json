@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-10-24T09:48:53.275461",
+  "elapsed_time": 30.080436944961548,
+  "total_stats": {
+    "files": 12,
+    "records": 1430,
+    "b200_trt": 234
+  },
+  "model_stats": {
+    "Llama 3.3 70B Instruct": {
+      "files": 0,
+      "records": 0,
+      "b200_trt": 0,
+      "hwkeys": []
+    },
+    "gpt-oss 120B": {
+      "files": 6,
+      "records": 898,
+      "b200_trt": 120,
+      "hwkeys": [
+        "b200",
+        "b200_trt",
+        "h100",
+        "h200",
+        "h200_trt",
+        "mi300x",
+        "mi325x",
+        "mi355x"
+      ]
+    },
+    "DeepSeek R1 0528": {
+      "files": 6,
+      "records": 532,
+      "b200_trt": 114,
+      "hwkeys": [
+        "b200",
+        "b200_trt",
+        "gb200",
+        "gb200_mtp",
+        "h200",
+        "h200_trt",
+        "mi300x",
+        "mi325x",
+        "mi355x"
+      ]
+    }
+  }
+}

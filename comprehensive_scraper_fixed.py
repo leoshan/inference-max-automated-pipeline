@@ -246,7 +246,9 @@ def find_and_click_dropdown(driver, button_text_pattern):
     return False
 
 def select_option_by_exact_text(driver, option_text):
-    """根据精确文本选择选项"""
+    """根据精确文本选择选项 - 修复版本"""
+    print(f"🎯 尝试选择选项: '{option_text}'")
+
     script = f"""
     const targetText = '{option_text}';
     const possibleSelectors = [
@@ -262,19 +264,27 @@ def select_option_by_exact_text(driver, option_text):
 
     for (let selector of possibleSelectors) {{
         const elements = document.querySelectorAll(selector);
+        console.log('检查选择器', selector, '找到', elements.length, '个元素');
 
         for (let element of elements) {{
             const text = element.textContent ? element.textContent.trim() : '';
+            const value = element.value || '';
 
-            if (text === targetText) {{
+            console.log('选项文本:', text, '目标文本:', targetText);
+
+            if (text === targetText ||
+                text.toLowerCase() === targetText.toLowerCase() ||
+                value === targetText ||
+                value.toLowerCase() === targetText.toLowerCase()) {{
+
                 try {{
                     element.click();
                     found = true;
                     clickedElement = element.tagName;
-                    console.log('Successfully clicked option:', targetText);
+                    console.log('✅ 成功点击选项:', targetText);
                     break;
                 }} catch (e) {{
-                    console.log('Click failed for option:', targetText, e);
+                    console.log('❌ 点击选项失败:', targetText, e);
                 }}
             }}
         }}
@@ -292,7 +302,7 @@ def select_option_by_exact_text(driver, option_text):
     return driver.execute_script(script)
 
 def test_combination(driver, model, sequence, combination_index):
-    """测试一个特定的模型和序列组合"""
+    """测试一个特定的模型和序列组合 - 修复版本"""
     print(f"\n=== Testing Combination {combination_index}: {model} + {sequence} ===")
 
     # 清除之前的数据
@@ -312,7 +322,7 @@ def test_combination(driver, model, sequence, combination_index):
             return None
 
         print(f"✅ Model selected successfully")
-        time.sleep(2)  # 等待模型数据加载
+        time.sleep(3)  # 等待模型数据加载
 
         # 选择序列 - 修复：传入正确的搜索文本
         print(f"Step 2: Selecting sequence: {sequence}")
@@ -327,11 +337,11 @@ def test_combination(driver, model, sequence, combination_index):
                 return None
 
             print(f"✅ Sequence selected successfully")
-            time.sleep(4)  # 等待组合数据加载
+            time.sleep(5)  # 等待组合数据加载
 
             # 获取捕获的数据
             print(f"Step 3: Capturing JSON data...")
-            wait_result = wait_for_data_loading(driver, timeout=15, expected_min_count=1)
+            wait_result = wait_for_data_loading(driver, timeout=30, expected_min_count=2)
             captured_data = get_captured_data(driver)
 
             print(f"📊 Captured {len(captured_data)} JSON responses after {wait_result['attempts']} attempts")
@@ -358,7 +368,7 @@ def test_combination(driver, model, sequence, combination_index):
 def save_raw_json_files(combination_data, output_dir):
     """保存原始JSON文件"""
     model = combination_data['model'].replace(' ', '_').replace('.', '_')
-    sequence = combination_data['sequence'].replace(' ', '_').replace('/', '_')
+    sequence = combination_data['sequence'].replace(' ', '_').replace('/', '___')
     combination_index = combination_data['combination_index']
 
     # 为每个JSON响应创建单独的文件
@@ -412,7 +422,7 @@ def main():
     driver = setup_driver()
 
     try:
-        print("🚀 Starting comprehensive InferenceMAX scraping...")
+        print("🚀 Starting FIXED comprehensive InferenceMAX scraping...")
         print(f"📋 Target: {len(models)} models × {len(sequences)} sequences = {len(models) * len(sequences)} combinations")
         print(f"📁 Output directory: {output_dir}")
 
@@ -435,58 +445,35 @@ def main():
                 combination_data = test_combination(driver, model, sequence, combination_index)
 
                 if combination_data:
+                    # 保存JSON文件
                     files_saved = save_raw_json_files(combination_data, output_dir)
                     total_files_saved += files_saved
-                    successful_combinations.append({
-                        'index': combination_index,
-                        'model': model,
-                        'sequence': sequence,
-                        'files_saved': files_saved
-                    })
-
-                    print(f"✅ Combination {combination_index} completed: {files_saved} files saved")
+                    successful_combinations.append(combination_data)
+                    print(f"✅ Combination {combination_index} successful: saved {files_saved} files")
                 else:
                     print(f"❌ Combination {combination_index} failed")
 
                 combination_index += 1
+                time.sleep(2)  # 组合之间的间隔
 
-                # 组合之间的等待时间
-                time.sleep(2)
-
-        # 保存汇总报告
-        summary = {
-            'scrape_timestamp': time.time(),
-            'target_combinations': len(models) * len(sequences),
-            'successful_combinations': len(successful_combinations),
-            'total_json_files_saved': total_files_saved,
-            'models': models,
-            'sequences': sequences,
-            'successful_combinations_detail': successful_combinations,
-            'output_directory': output_dir
-        }
-
-        summary_file = os.path.join(output_dir, 'scraping_summary.json')
-        with open(summary_file, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2, ensure_ascii=False)
-
+        # 生成总结报告
         print(f"\n🎉 Scraping completed!")
         print(f"📊 Successful combinations: {len(successful_combinations)}/{len(models) * len(sequences)}")
         print(f"📁 Total JSON files saved: {total_files_saved}")
-        print(f"📋 Summary saved to: {summary_file}")
 
-        # 列出所有保存的文件
-        saved_files = [f for f in os.listdir(output_dir) if f.endswith('.json') and f != 'scraping_summary.json']
-        print(f"\n📂 Saved files ({len(saved_files)}):")
-        for file in sorted(saved_files):
-            print(f"  - {file}")
+        # 保存总结
+        summary = {
+            'timestamp': time.time(),
+            'total_combinations': len(models) * len(sequences),
+            'successful_combinations': len(successful_combinations),
+            'total_files_saved': total_files_saved,
+            'successful_combinations_data': successful_combinations
+        }
 
-        return summary
+        with open(os.path.join(output_dir, 'scraping_summary.json'), 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    except Exception as e:
-        print(f"❌ Error during scraping: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
+        print(f"📋 Summary saved to: {output_dir}/scraping_summary.json")
 
     finally:
         driver.quit()
