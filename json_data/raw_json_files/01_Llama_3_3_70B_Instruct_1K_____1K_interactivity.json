@@ -1,0 +1,6301 @@
+{
+  "metadata": {
+    "combination_index": 1,
+    "model": "Llama 3.3 70B Instruct",
+    "sequence": "1K / 1K",
+    "response_index": 1,
+    "timestamp": "2025-10-25T01:00:03.600631",
+    "request_id": 1,
+    "url": "https://inferencemax.semianalysis.com/data/inference-performance/llama-3_3-70b-instruct-fp8-1k_1k-interactivity.json",
+    "method": "GET",
+    "content_type": "application/json",
+    "data_size": 64863,
+    "data_type": "interactivity",
+    "record_count": 224,
+    "b200_trt_count": 48,
+    "hwkeys": [
+      "b200",
+      "b200_trt",
+      "h100",
+      "h200",
+      "h200_trt",
+      "mi300x",
+      "mi325x",
+      "mi355x"
+    ]
+  },
+  "data": [
+    {
+      "x": 112.558,
+      "y": 853.898,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 853.898,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 393501.612,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.634,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.761,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.943,
+        "roof": false
+      }
+    },
+    {
+      "x": 58.667,
+      "y": 7066.918,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 7066.918,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 3256644.126,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.077,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.092,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.114,
+        "roof": false
+      }
+    },
+    {
+      "x": 90.73,
+      "y": 2735.064,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2735.064,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1260398.078,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.198,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.238,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.295,
+        "roof": false
+      }
+    },
+    {
+      "x": 102.557,
+      "y": 388.498,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 388.498,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 179031.385,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.394,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.673,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.074,
+        "roof": false
+      }
+    },
+    {
+      "x": 82.337,
+      "y": 4969.295,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4969.295,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 2289997.598,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.109,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.131,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.162,
+        "roof": true
+      }
+    },
+    {
+      "x": 79.809,
+      "y": 4864.508,
+      "conc": 128,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4864.508,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2241708.894,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.111,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.134,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.166,
+        "roof": false
+      }
+    },
+    {
+      "x": 151.01,
+      "y": 284.976,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 284.976,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 131325.494,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.901,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.281,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.827,
+        "roof": false
+      }
+    },
+    {
+      "x": 72.164,
+      "y": 2265.31,
+      "conc": 128,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2265.31,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1043921.44,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.239,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.287,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.356,
+        "roof": false
+      }
+    },
+    {
+      "x": 100.912,
+      "y": 1546.18,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1546.18,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 712525.467,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.35,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.42,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.521,
+        "roof": false
+      }
+    },
+    {
+      "x": 132.302,
+      "y": 1019.71,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1019.71,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 469912.443,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.531,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.637,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.79,
+        "roof": false
+      }
+    },
+    {
+      "x": 55.586,
+      "y": 3355.579,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3355.579,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1546349.692,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.161,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.194,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.24,
+        "roof": false
+      }
+    },
+    {
+      "x": 169.969,
+      "y": 163.617,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 163.617,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 75399.656,
+        "roof": false
+      },
+      "costh": {
+        "y": 3.311,
+        "roof": false
+      },
+      "costn": {
+        "y": 3.973,
+        "roof": false
+      },
+      "costr": {
+        "y": 4.923,
+        "roof": false
+      }
+    },
+    {
+      "x": 53.577,
+      "y": 6530.735,
+      "conc": 128,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 6530.735,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 3009555.41,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.083,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.1,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.123,
+        "roof": false
+      }
+    },
+    {
+      "x": 46.261,
+      "y": 5577.141,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 5577.141,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2570111.037,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.097,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.117,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.144,
+        "roof": false
+      }
+    },
+    {
+      "x": 137.689,
+      "y": 1057.526,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1057.526,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 487338.976,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.512,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.615,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.762,
+        "roof": true
+      }
+    },
+    {
+      "x": 145.843,
+      "y": 569.989,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 569.989,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 262667.725,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.95,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.14,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.413,
+        "roof": false
+      }
+    },
+    {
+      "x": 74.366,
+      "y": 4535.178,
+      "conc": 128,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 4535.178,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2089943.736,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.119,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.143,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.178,
+        "roof": false
+      }
+    },
+    {
+      "x": 153.05,
+      "y": 598.36,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 598.36,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 275741.761,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.905,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.086,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.346,
+        "roof": true
+      }
+    },
+    {
+      "x": 112.751,
+      "y": 427.222,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 427.222,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 196876.443,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.268,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.521,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.886,
+        "roof": false
+      }
+    },
+    {
+      "x": 149.454,
+      "y": 282.983,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 282.983,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 130406.983,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.914,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.297,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.847,
+        "roof": false
+      }
+    },
+    {
+      "x": 72.076,
+      "y": 2262.403,
+      "conc": 128,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2262.403,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1042582.223,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.239,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.287,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.356,
+        "roof": false
+      }
+    },
+    {
+      "x": 64.936,
+      "y": 7898.949,
+      "conc": 128,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 7898.949,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 3640068.679,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.069,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.082,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.102,
+        "roof": true
+      }
+    },
+    {
+      "x": 69.168,
+      "y": 4184.152,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4184.152,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1928180.426,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.129,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.155,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.193,
+        "roof": false
+      }
+    },
+    {
+      "x": 66.802,
+      "y": 1013.299,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1013.299,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 466957.956,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.535,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.641,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.795,
+        "roof": false
+      }
+    },
+    {
+      "x": 80.547,
+      "y": 1222.861,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1222.861,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 563530.478,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.443,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.532,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.659,
+        "roof": false
+      }
+    },
+    {
+      "x": 125.051,
+      "y": 1886.818,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1886.818,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 869501.336,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.287,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.344,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.427,
+        "roof": true
+      }
+    },
+    {
+      "x": 142.796,
+      "y": 541.502,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 541.502,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 249540.192,
+        "roof": false
+      },
+      "costh": {
+        "y": 1,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.2,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.488,
+        "roof": false
+      }
+    },
+    {
+      "x": 106.354,
+      "y": 1632.862,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1632.862,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 752471.164,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.332,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.398,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.493,
+        "roof": false
+      }
+    },
+    {
+      "x": 136.073,
+      "y": 1043.591,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1043.591,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 480917.435,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.519,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.623,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.772,
+        "roof": false
+      }
+    },
+    {
+      "x": 33.251,
+      "y": 8111.973,
+      "conc": 128,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 8111.973,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 3738236.193,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.067,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.08,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.099,
+        "roof": false
+      }
+    },
+    {
+      "x": 142.15,
+      "y": 539.787,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 539.787,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 248749.666,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.003,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.204,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.492,
+        "roof": false
+      }
+    },
+    {
+      "x": 183.257,
+      "y": 176.194,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 176.194,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 81195.613,
+        "roof": true
+      },
+      "costh": {
+        "y": 3.074,
+        "roof": true
+      },
+      "costn": {
+        "y": 3.689,
+        "roof": true
+      },
+      "costr": {
+        "y": 4.572,
+        "roof": true
+      }
+    },
+    {
+      "x": 101.529,
+      "y": 3066.646,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3066.646,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1413200.978,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.177,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.212,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.263,
+        "roof": false
+      }
+    },
+    {
+      "x": 127.089,
+      "y": 982.168,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 982.168,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 452612.105,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.552,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.662,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.82,
+        "roof": false
+      }
+    },
+    {
+      "x": 44.876,
+      "y": 10919.239,
+      "conc": 128,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 10919.239,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 5031907.295,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.05,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.06,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.074,
+        "roof": true
+      }
+    },
+    {
+      "x": 76.614,
+      "y": 2354.423,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2354.423,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1084987.417,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.23,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.276,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.342,
+        "roof": false
+      }
+    },
+    {
+      "x": 74.036,
+      "y": 4468.77,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 4468.77,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2059341.179,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.121,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.145,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.18,
+        "roof": false
+      }
+    },
+    {
+      "x": 102.913,
+      "y": 1597.384,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1597.384,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 736121.809,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.339,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.407,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.504,
+        "roof": false
+      }
+    },
+    {
+      "x": 62.266,
+      "y": 1912.169,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1912.169,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 881183.891,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.283,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.34,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.421,
+        "roof": false
+      }
+    },
+    {
+      "x": 174.31,
+      "y": 335.266,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 335.266,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 154500.473,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.616,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.939,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.403,
+        "roof": true
+      }
+    },
+    {
+      "x": 68.373,
+      "y": 517.86,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 517.86,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 238645.158,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.046,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.255,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.556,
+        "roof": false
+      }
+    },
+    {
+      "x": 166.004,
+      "y": 319.933,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 319.933,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 147434.495,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.693,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.032,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.518,
+        "roof": false
+      }
+    },
+    {
+      "x": 97.427,
+      "y": 1516.357,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1516.357,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 698781.923,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.357,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.429,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.531,
+        "roof": false
+      }
+    },
+    {
+      "x": 97.236,
+      "y": 2940.041,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2940.041,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1354857.805,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.184,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.221,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.274,
+        "roof": false
+      }
+    },
+    {
+      "x": 102.054,
+      "y": 773.678,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "b200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 773.678,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 356533.493,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.7,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.84,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.041,
+        "roof": false
+      }
+    },
+    {
+      "x": 83.281,
+      "y": 630.465,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 630.465,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 290536.68,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.859,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.031,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.278,
+        "roof": false
+      }
+    },
+    {
+      "x": 124.277,
+      "y": 1877.555,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1877.555,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 865232.619,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.288,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.346,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.429,
+        "roof": false
+      }
+    },
+    {
+      "x": 106.558,
+      "y": 3219.33,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "b200_trt",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 3219.33,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1483562.258,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.168,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.202,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.25,
+        "roof": true
+      }
+    },
+    {
+      "x": 157.45,
+      "y": 150.918,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 150.918,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 69547.302,
+        "roof": false
+      },
+      "costh": {
+        "y": 3.589,
+        "roof": false
+      },
+      "costn": {
+        "y": 4.307,
+        "roof": false
+      },
+      "costr": {
+        "y": 5.338,
+        "roof": false
+      }
+    },
+    {
+      "x": 86.436,
+      "y": 1216.435,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1216.435,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 560568.961,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.445,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.534,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.662,
+        "roof": false
+      }
+    },
+    {
+      "x": 66.914,
+      "y": 4058.682,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4058.682,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1870360.562,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.133,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.16,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.198,
+        "roof": false
+      }
+    },
+    {
+      "x": 76.586,
+      "y": 4474.986,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4474.986,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 2062205.564,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.121,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.145,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.18,
+        "roof": true
+      }
+    },
+    {
+      "x": 91.69,
+      "y": 2712.137,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2712.137,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1249832.711,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.2,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.24,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.297,
+        "roof": true
+      }
+    },
+    {
+      "x": 125.352,
+      "y": 483.712,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 483.712,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 222908.688,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.12,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.344,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.665,
+        "roof": false
+      }
+    },
+    {
+      "x": 160.509,
+      "y": 154.02,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 154.02,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 70977.085,
+        "roof": true
+      },
+      "costh": {
+        "y": 3.517,
+        "roof": true
+      },
+      "costn": {
+        "y": 4.22,
+        "roof": true
+      },
+      "costr": {
+        "y": 5.23,
+        "roof": true
+      }
+    },
+    {
+      "x": 76.3,
+      "y": 2266.092,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2266.092,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1044281.911,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.239,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.287,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.355,
+        "roof": false
+      }
+    },
+    {
+      "x": 106.679,
+      "y": 824.962,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 824.962,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 380166.908,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.657,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.788,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.976,
+        "roof": false
+      }
+    },
+    {
+      "x": 154.864,
+      "y": 297.574,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 297.574,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 137130.665,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.82,
+        "roof": true
+      },
+      "costn": {
+        "y": 2.184,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.707,
+        "roof": true
+      }
+    },
+    {
+      "x": 75.046,
+      "y": 1159.78,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1159.78,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 534460.65,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.467,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.56,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.695,
+        "roof": false
+      }
+    },
+    {
+      "x": 133.947,
+      "y": 503.1,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 503.1,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 231843.505,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.077,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.292,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.601,
+        "roof": true
+      }
+    },
+    {
+      "x": 50.859,
+      "y": 3097.781,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3097.781,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1427548.871,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.175,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.21,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.26,
+        "roof": false
+      }
+    },
+    {
+      "x": 56.175,
+      "y": 6794.115,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 6794.115,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 3130928.42,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.08,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.096,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.119,
+        "roof": true
+      }
+    },
+    {
+      "x": 43.677,
+      "y": 5329.745,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 5329.745,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2456103.655,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.102,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.122,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.151,
+        "roof": false
+      }
+    },
+    {
+      "x": 111.155,
+      "y": 846.507,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 846.507,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 390095.593,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.64,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.768,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.952,
+        "roof": false
+      }
+    },
+    {
+      "x": 88.354,
+      "y": 2543.402,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2543.402,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1172074.477,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.213,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.256,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.317,
+        "roof": false
+      }
+    },
+    {
+      "x": 65.493,
+      "y": 3886.981,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3886.981,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1791235.347,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.139,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.167,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.207,
+        "roof": false
+      }
+    },
+    {
+      "x": 80.902,
+      "y": 1155.357,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1155.357,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 532422.413,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.469,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.563,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.697,
+        "roof": false
+      }
+    },
+    {
+      "x": 139.025,
+      "y": 267.508,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 267.508,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 123275.404,
+        "roof": false
+      },
+      "costh": {
+        "y": 2.025,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.43,
+        "roof": false
+      },
+      "costr": {
+        "y": 3.011,
+        "roof": false
+      }
+    },
+    {
+      "x": 123.846,
+      "y": 944.04,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 944.04,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 435041.612,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.574,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.689,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.853,
+        "roof": true
+      }
+    },
+    {
+      "x": 61.694,
+      "y": 952.471,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 952.471,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 438926.68,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.569,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.682,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.846,
+        "roof": false
+      }
+    },
+    {
+      "x": 76.467,
+      "y": 590.177,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 590.177,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 271970.986,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.918,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.101,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.365,
+        "roof": false
+      }
+    },
+    {
+      "x": 151.831,
+      "y": 291.754,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 291.754,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 134448.853,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.857,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.228,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.761,
+        "roof": false
+      }
+    },
+    {
+      "x": 94.883,
+      "y": 366.415,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 366.415,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 168854.803,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.478,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.774,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.198,
+        "roof": false
+      }
+    },
+    {
+      "x": 78.64,
+      "y": 2339.626,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2339.626,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1078168.879,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.232,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.278,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.344,
+        "roof": false
+      }
+    },
+    {
+      "x": 103.67,
+      "y": 1472.311,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1472.311,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 678484.497,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.368,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.441,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.547,
+        "roof": true
+      }
+    },
+    {
+      "x": 122.012,
+      "y": 470.983,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 470.983,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 217042.63,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.15,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.38,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.71,
+        "roof": false
+      }
+    },
+    {
+      "x": 108.405,
+      "y": 419.132,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 419.132,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 193148.449,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.292,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.551,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.922,
+        "roof": false
+      }
+    },
+    {
+      "x": 113.641,
+      "y": 842.561,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 842.561,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 388276.949,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.643,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.771,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.956,
+        "roof": false
+      }
+    },
+    {
+      "x": 100.672,
+      "y": 1544.908,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1544.908,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 711939.27,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.351,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.421,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.521,
+        "roof": true
+      }
+    },
+    {
+      "x": 128.608,
+      "y": 247.024,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 247.024,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 113835.747,
+        "roof": false
+      },
+      "costh": {
+        "y": 2.193,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.631,
+        "roof": false
+      },
+      "costr": {
+        "y": 3.261,
+        "roof": false
+      }
+    },
+    {
+      "x": 133.222,
+      "y": 497.968,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 497.968,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 229478.209,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.088,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.305,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.618,
+        "roof": false
+      }
+    },
+    {
+      "x": 57.787,
+      "y": 1791.781,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1791.781,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 825705.313,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.302,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.363,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.45,
+        "roof": false
+      }
+    },
+    {
+      "x": 73.133,
+      "y": 2265.422,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2265.422,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1043973.259,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.239,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.287,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.356,
+        "roof": false
+      }
+    },
+    {
+      "x": 115.224,
+      "y": 829.874,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "b200",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 829.874,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 382430.435,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.653,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.783,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.971,
+        "roof": false
+      }
+    },
+    {
+      "x": 98.285,
+      "y": 1460.56,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1460.56,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 673069.344,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.371,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.445,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.552,
+        "roof": false
+      }
+    },
+    {
+      "x": 90.302,
+      "y": 1382.181,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1382.181,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 636949.817,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.392,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.47,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.583,
+        "roof": false
+      }
+    },
+    {
+      "x": 61.198,
+      "y": 472.023,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 472.023,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 217522.231,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.148,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.377,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.707,
+        "roof": false
+      }
+    },
+    {
+      "x": 94.628,
+      "y": 730.773,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "b200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 730.773,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 336761.916,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.741,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.889,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.102,
+        "roof": false
+      }
+    },
+    {
+      "x": 109.385,
+      "y": 211.547,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 211.547,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 79829.045,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.943,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.495,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.757,
+        "roof": false
+      }
+    },
+    {
+      "x": 107.363,
+      "y": 395.554,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 395.554,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 149265.767,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.039,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.334,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.475,
+        "roof": true
+      }
+    },
+    {
+      "x": 89.31,
+      "y": 657.975,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 657.975,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 248292.592,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.625,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.802,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.887,
+        "roof": false
+      }
+    },
+    {
+      "x": 117.915,
+      "y": 219.325,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 219.325,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 82764.164,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.874,
+        "roof": true
+      },
+      "costn": {
+        "y": 2.406,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.66,
+        "roof": true
+      }
+    },
+    {
+      "x": 59.442,
+      "y": 917.19,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 917.19,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 346109.264,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.448,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.575,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.636,
+        "roof": false
+      }
+    },
+    {
+      "x": 83.724,
+      "y": 622.632,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 622.632,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 234955.643,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.66,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.848,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.937,
+        "roof": false
+      }
+    },
+    {
+      "x": 98.156,
+      "y": 357.925,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 357.925,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 135065.872,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.149,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.475,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.63,
+        "roof": false
+      }
+    },
+    {
+      "x": 73.787,
+      "y": 1147.855,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1147.855,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 433152.826,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.358,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.46,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.508,
+        "roof": false
+      }
+    },
+    {
+      "x": 63.127,
+      "y": 945.506,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 945.506,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 356794.561,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.435,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.558,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.617,
+        "roof": false
+      }
+    },
+    {
+      "x": 48.152,
+      "y": 1463.496,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1463.496,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 552262.696,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.281,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.361,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.399,
+        "roof": false
+      }
+    },
+    {
+      "x": 110.79,
+      "y": 213.605,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 213.605,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 80605.579,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.925,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.471,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.731,
+        "roof": false
+      }
+    },
+    {
+      "x": 94.959,
+      "y": 351.421,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 351.421,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 132611.804,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.17,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.502,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.66,
+        "roof": false
+      }
+    },
+    {
+      "x": 119.369,
+      "y": 219.09,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 219.09,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 82675.413,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.876,
+        "roof": true
+      },
+      "costn": {
+        "y": 2.409,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.663,
+        "roof": true
+      }
+    },
+    {
+      "x": 67.168,
+      "y": 1040.518,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1040.518,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 392648.459,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.395,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.507,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.561,
+        "roof": false
+      }
+    },
+    {
+      "x": 61.675,
+      "y": 1909.795,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1909.795,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 720677.232,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.215,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.276,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.305,
+        "roof": false
+      }
+    },
+    {
+      "x": 79.41,
+      "y": 307.436,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 307.436,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 116013.687,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.337,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.717,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.897,
+        "roof": false
+      }
+    },
+    {
+      "x": 43.699,
+      "y": 2708.448,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2708.448,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1022055.99,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.152,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.195,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.215,
+        "roof": false
+      }
+    },
+    {
+      "x": 61.883,
+      "y": 1928.26,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1928.26,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 727645.467,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.213,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.274,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.303,
+        "roof": true
+      }
+    },
+    {
+      "x": 73.911,
+      "y": 1141.634,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1141.634,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 430805.346,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.36,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.462,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.511,
+        "roof": false
+      }
+    },
+    {
+      "x": 77.853,
+      "y": 600.236,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 600.236,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 226503.99,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.685,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.879,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.972,
+        "roof": false
+      }
+    },
+    {
+      "x": 133.065,
+      "y": 122.357,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 122.357,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 46172.418,
+        "roof": true
+      },
+      "costh": {
+        "y": 3.36,
+        "roof": true
+      },
+      "costn": {
+        "y": 4.313,
+        "roof": true
+      },
+      "costr": {
+        "y": 4.767,
+        "roof": true
+      }
+    },
+    {
+      "x": 98.863,
+      "y": 385.643,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 385.643,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 145525.495,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.066,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.369,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.513,
+        "roof": false
+      }
+    },
+    {
+      "x": 71.094,
+      "y": 1106.74,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1106.74,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 417637.768,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.371,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.477,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.527,
+        "roof": false
+      }
+    },
+    {
+      "x": 54.22,
+      "y": 1689.005,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1689.005,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 637360.381,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.243,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.312,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.345,
+        "roof": false
+      }
+    },
+    {
+      "x": 58.849,
+      "y": 1821.168,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1821.168,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 687233.318,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.226,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.29,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.32,
+        "roof": false
+      }
+    },
+    {
+      "x": 54.703,
+      "y": 1693.3,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1693.3,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 638981.196,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.243,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.312,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.344,
+        "roof": false
+      }
+    },
+    {
+      "x": 79.13,
+      "y": 611.604,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 611.604,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 230794.126,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.672,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.863,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.954,
+        "roof": false
+      }
+    },
+    {
+      "x": 43.04,
+      "y": 2681.558,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2681.558,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1011908.728,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.153,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.197,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.218,
+        "roof": false
+      }
+    },
+    {
+      "x": 61.349,
+      "y": 474.215,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 474.215,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 178949.144,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.867,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.113,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.23,
+        "roof": false
+      }
+    },
+    {
+      "x": 33.839,
+      "y": 4237.018,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 4237.018,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1598874.562,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.097,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.125,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.138,
+        "roof": false
+      }
+    },
+    {
+      "x": 82.182,
+      "y": 1269.73,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1269.73,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 479143.371,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.324,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.416,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.459,
+        "roof": true
+      }
+    },
+    {
+      "x": 71.945,
+      "y": 536.957,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 536.957,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 202625.182,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.766,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.983,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.086,
+        "roof": false
+      }
+    },
+    {
+      "x": 115.974,
+      "y": 112.219,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 112.219,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 42346.944,
+        "roof": false
+      },
+      "costh": {
+        "y": 3.663,
+        "roof": false
+      },
+      "costn": {
+        "y": 4.703,
+        "roof": false
+      },
+      "costr": {
+        "y": 5.198,
+        "roof": false
+      }
+    },
+    {
+      "x": 43.444,
+      "y": 2694.651,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 2694.651,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1016849.246,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.153,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.196,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.216,
+        "roof": false
+      }
+    },
+    {
+      "x": 35.08,
+      "y": 4383.145,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 4383.145,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1654016.984,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.094,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.12,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.133,
+        "roof": true
+      }
+    },
+    {
+      "x": 44.318,
+      "y": 2751.514,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2751.514,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1038307.069,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.149,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.192,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.212,
+        "roof": true
+      }
+    },
+    {
+      "x": 96.071,
+      "y": 748.02,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 748.02,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 282271.84,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.55,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.706,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.78,
+        "roof": true
+      }
+    },
+    {
+      "x": 67.117,
+      "y": 1006.409,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "mi355x",
+      "precision": "fp4",
+      "tpPerGpu": {
+        "y": 1006.409,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 379777.065,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.408,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.524,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.58,
+        "roof": false
+      }
+    },
+    {
+      "x": 104.294,
+      "y": 402.076,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 402.076,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 151726.718,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.022,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.313,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.451,
+        "roof": true
+      }
+    },
+    {
+      "x": 92.55,
+      "y": 713.665,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "mi355x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 713.665,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 269307.59,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.576,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.74,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.817,
+        "roof": false
+      }
+    },
+    {
+      "x": 47.483,
+      "y": 366.713,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 366.713,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 168217.051,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.97,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.204,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.363,
+        "roof": false
+      }
+    },
+    {
+      "x": 95.689,
+      "y": 368.327,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 368.327,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 168957.134,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.965,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.199,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.357,
+        "roof": false
+      }
+    },
+    {
+      "x": 47.829,
+      "y": 1473.398,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1473.398,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 675870.738,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.241,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.3,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.339,
+        "roof": true
+      }
+    },
+    {
+      "x": 124.96,
+      "y": 120.561,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 120.561,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 55303.178,
+        "roof": true
+      },
+      "costh": {
+        "y": 2.949,
+        "roof": true
+      },
+      "costn": {
+        "y": 3.663,
+        "roof": true
+      },
+      "costr": {
+        "y": 4.147,
+        "roof": true
+      }
+    },
+    {
+      "x": 102.613,
+      "y": 399.166,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 399.166,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 183103.887,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.891,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.106,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.253,
+        "roof": true
+      }
+    },
+    {
+      "x": 63.85,
+      "y": 992.408,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 992.408,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 455232.998,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.358,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.445,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.504,
+        "roof": true
+      }
+    },
+    {
+      "x": 32.682,
+      "y": 2034.671,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2034.671,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 933335.115,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.175,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.217,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.246,
+        "roof": false
+      }
+    },
+    {
+      "x": 71.38,
+      "y": 274.716,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 274.716,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 126016.359,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.294,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.608,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.82,
+        "roof": false
+      }
+    },
+    {
+      "x": 60.615,
+      "y": 931.641,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 931.641,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 427358.088,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.382,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.474,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.537,
+        "roof": false
+      }
+    },
+    {
+      "x": 84.654,
+      "y": 163.248,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 163.248,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 74884.448,
+        "roof": false
+      },
+      "costh": {
+        "y": 2.178,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.705,
+        "roof": false
+      },
+      "costr": {
+        "y": 3.063,
+        "roof": false
+      }
+    },
+    {
+      "x": 87.226,
+      "y": 672.629,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 672.629,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 308545.24,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.529,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.657,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.743,
+        "roof": true
+      }
+    },
+    {
+      "x": 83.949,
+      "y": 653.696,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 653.696,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 299860.384,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.544,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.676,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.765,
+        "roof": false
+      }
+    },
+    {
+      "x": 115.231,
+      "y": 222.147,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 222.147,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 101902.466,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.601,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.988,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.251,
+        "roof": true
+      }
+    },
+    {
+      "x": 34.838,
+      "y": 2151.363,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2151.363,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 986863.596,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.165,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.205,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.232,
+        "roof": true
+      }
+    },
+    {
+      "x": 45.805,
+      "y": 706.881,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 706.881,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 324257.473,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.503,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.625,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.707,
+        "roof": false
+      }
+    },
+    {
+      "x": 67.206,
+      "y": 516.221,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 516.221,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 236798.482,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.689,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.856,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.969,
+        "roof": false
+      }
+    },
+    {
+      "x": 60.16,
+      "y": 933.703,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 933.703,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 428303.971,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.381,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.473,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.536,
+        "roof": false
+      }
+    },
+    {
+      "x": 25.924,
+      "y": 3230.929,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "mi325x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3230.929,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1482077.592,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.11,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.137,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.155,
+        "roof": true
+      }
+    },
+    {
+      "x": 93.715,
+      "y": 365.204,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 365.204,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 204024.596,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.852,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.065,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.179,
+        "roof": true
+      }
+    },
+    {
+      "x": 30.185,
+      "y": 1883.362,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1883.362,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1052157.669,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.165,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.206,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.229,
+        "roof": true
+      }
+    },
+    {
+      "x": 31.738,
+      "y": 989.845,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 989.845,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 552985.873,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.314,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.393,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.435,
+        "roof": false
+      }
+    },
+    {
+      "x": 55.85,
+      "y": 874.717,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 874.717,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 488668.935,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.356,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.445,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.492,
+        "roof": false
+      }
+    },
+    {
+      "x": 29.788,
+      "y": 1839.326,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1839.326,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1027556.431,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.169,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.211,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.234,
+        "roof": false
+      }
+    },
+    {
+      "x": 90.987,
+      "y": 175.011,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 175.011,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 97771.753,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.778,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.222,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.46,
+        "roof": false
+      }
+    },
+    {
+      "x": 57.374,
+      "y": 442.237,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 442.237,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 247059.649,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.703,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.879,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.974,
+        "roof": false
+      }
+    },
+    {
+      "x": 63.2,
+      "y": 976.945,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 976.945,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 545779.334,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.318,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.398,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.441,
+        "roof": true
+      }
+    },
+    {
+      "x": 119.288,
+      "y": 114.56,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 114.56,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 63999.741,
+        "roof": true
+      },
+      "costh": {
+        "y": 2.716,
+        "roof": true
+      },
+      "costn": {
+        "y": 3.395,
+        "roof": true
+      },
+      "costr": {
+        "y": 3.758,
+        "roof": true
+      }
+    },
+    {
+      "x": 103.891,
+      "y": 200.062,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 200.062,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 111766.759,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.555,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.944,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.152,
+        "roof": true
+      }
+    },
+    {
+      "x": 39.562,
+      "y": 1226.688,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1226.688,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 685300.666,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.254,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.317,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.351,
+        "roof": false
+      }
+    },
+    {
+      "x": 21.64,
+      "y": 2687.391,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2687.391,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1501335.725,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.116,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.145,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.16,
+        "roof": true
+      }
+    },
+    {
+      "x": 77.232,
+      "y": 596.963,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 596.963,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 333499.102,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.521,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.651,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.721,
+        "roof": true
+      }
+    },
+    {
+      "x": 39.887,
+      "y": 615.313,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 615.313,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 343750.048,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.506,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.632,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.7,
+        "roof": false
+      }
+    },
+    {
+      "x": 85.248,
+      "y": 328.491,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 328.491,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 183514.417,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.947,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.184,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.311,
+        "roof": false
+      }
+    },
+    {
+      "x": 74.827,
+      "y": 583.288,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 583.288,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 325859.042,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.533,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.667,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.738,
+        "roof": false
+      }
+    },
+    {
+      "x": 42.256,
+      "y": 325.946,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 325.946,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 182092.648,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.954,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.193,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.321,
+        "roof": false
+      }
+    },
+    {
+      "x": 58.795,
+      "y": 227.24,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 227.24,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 126949.658,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.369,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.711,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.895,
+        "roof": false
+      }
+    },
+    {
+      "x": 53.209,
+      "y": 830.053,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 830.053,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 463716.933,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.375,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.469,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.519,
+        "roof": false
+      }
+    },
+    {
+      "x": 43.743,
+      "y": 1357.535,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "mi300x",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1357.535,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 758399.581,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.229,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.286,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.317,
+        "roof": true
+      }
+    },
+    {
+      "x": 44.196,
+      "y": 1353.715,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1353.715,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 782494.125,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.289,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.357,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.328,
+        "roof": false
+      }
+    },
+    {
+      "x": 30.627,
+      "y": 3689.88,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3689.88,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 2132878.681,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.106,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.131,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.12,
+        "roof": false
+      }
+    },
+    {
+      "x": 73.174,
+      "y": 1137.924,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1137.924,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 657759.715,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.344,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.425,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.391,
+        "roof": false
+      }
+    },
+    {
+      "x": 51.316,
+      "y": 3092.113,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3092.113,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1787348.55,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.127,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.156,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.144,
+        "roof": true
+      }
+    },
+    {
+      "x": 82.684,
+      "y": 625.203,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 625.203,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 361388.994,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.626,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.773,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.711,
+        "roof": false
+      }
+    },
+    {
+      "x": 159.519,
+      "y": 152.885,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 152.885,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 88372.613,
+        "roof": true
+      },
+      "costh": {
+        "y": 2.562,
+        "roof": true
+      },
+      "costn": {
+        "y": 3.161,
+        "roof": true
+      },
+      "costr": {
+        "y": 2.907,
+        "roof": true
+      }
+    },
+    {
+      "x": 49.667,
+      "y": 375.624,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 375.624,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 217123.458,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.043,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.287,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.183,
+        "roof": false
+      }
+    },
+    {
+      "x": 92.802,
+      "y": 1400.703,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1400.703,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 809654.845,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.28,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.345,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.317,
+        "roof": true
+      }
+    },
+    {
+      "x": 126.538,
+      "y": 238.624,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 238.624,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 137932.697,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.641,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.026,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.863,
+        "roof": false
+      }
+    },
+    {
+      "x": 106.678,
+      "y": 822.654,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 822.654,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 475522.625,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.476,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.588,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.54,
+        "roof": false
+      }
+    },
+    {
+      "x": 21.79,
+      "y": 5305.655,
+      "conc": 128,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 5305.655,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 3066852.448,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.074,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.091,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.084,
+        "roof": true
+      }
+    },
+    {
+      "x": 72.221,
+      "y": 2180.768,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2180.768,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1260559.753,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.18,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.222,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.204,
+        "roof": true
+      }
+    },
+    {
+      "x": 45.521,
+      "y": 1429.454,
+      "conc": 128,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1429.454,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 826273.951,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.274,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.338,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.311,
+        "roof": false
+      }
+    },
+    {
+      "x": 121.032,
+      "y": 457.821,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 457.821,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 264636.664,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.856,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.056,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.971,
+        "roof": false
+      }
+    },
+    {
+      "x": 35.572,
+      "y": 4345.417,
+      "conc": 128,
+      "tp": 2,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 4345.417,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 2511801.865,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.09,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.111,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.102,
+        "roof": true
+      }
+    },
+    {
+      "x": 50.866,
+      "y": 3108.341,
+      "conc": 128,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3108.341,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1796728.733,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.126,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.155,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.143,
+        "roof": true
+      }
+    },
+    {
+      "x": 38.497,
+      "y": 2317.615,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2317.615,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1339661.65,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.169,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.209,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.192,
+        "roof": false
+      }
+    },
+    {
+      "x": 83.106,
+      "y": 314.372,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 314.372,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 181717.803,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.246,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.537,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.414,
+        "roof": false
+      }
+    },
+    {
+      "x": 147.859,
+      "y": 284.652,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 284.652,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 164538.569,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.376,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.698,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.561,
+        "roof": true
+      }
+    },
+    {
+      "x": 65.035,
+      "y": 1958.246,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1958.246,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1131933.819,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.2,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.247,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.227,
+        "roof": false
+      }
+    },
+    {
+      "x": 129.502,
+      "y": 504.743,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 504.743,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 291759.118,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.776,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.958,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.881,
+        "roof": true
+      }
+    },
+    {
+      "x": 47.24,
+      "y": 715.584,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 715.584,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 413632.268,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.547,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.675,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.621,
+        "roof": false
+      }
+    },
+    {
+      "x": 111.125,
+      "y": 850.893,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "h200_trt",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 850.893,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 491845.741,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.46,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.568,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.522,
+        "roof": true
+      }
+    },
+    {
+      "x": 80.695,
+      "y": 624.913,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 624.913,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 361221.254,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.578,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.751,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.578,
+        "roof": true
+      }
+    },
+    {
+      "x": 65.734,
+      "y": 1019.733,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1019.733,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 589441.042,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.354,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.46,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.354,
+        "roof": true
+      }
+    },
+    {
+      "x": 61.226,
+      "y": 949.527,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 949.527,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 548859.638,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.38,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.494,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.38,
+        "roof": false
+      }
+    },
+    {
+      "x": 34.456,
+      "y": 2127.115,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2127.115,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1229546.19,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.17,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.221,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.17,
+        "roof": true
+      }
+    },
+    {
+      "x": 86.352,
+      "y": 166.933,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 166.933,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 96493.119,
+        "roof": false
+      },
+      "costh": {
+        "y": 2.163,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.812,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.163,
+        "roof": false
+      }
+    },
+    {
+      "x": 90.714,
+      "y": 355.667,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 355.667,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 205587.822,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.015,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.32,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.015,
+        "roof": true
+      }
+    },
+    {
+      "x": 50.509,
+      "y": 1566.857,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1566.857,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 905697.783,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.23,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.3,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.23,
+        "roof": true
+      }
+    },
+    {
+      "x": 55.104,
+      "y": 426.575,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 426.575,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 246575.265,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.847,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.1,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.847,
+        "roof": false
+      }
+    },
+    {
+      "x": 83.021,
+      "y": 321.496,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 321.496,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 185835.985,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.123,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.46,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.123,
+        "roof": false
+      }
+    },
+    {
+      "x": 113.366,
+      "y": 109.521,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 109.521,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 63307.218,
+        "roof": true
+      },
+      "costh": {
+        "y": 3.297,
+        "roof": true
+      },
+      "costn": {
+        "y": 4.286,
+        "roof": true
+      },
+      "costr": {
+        "y": 3.297,
+        "roof": true
+      }
+    },
+    {
+      "x": 42.424,
+      "y": 1313.192,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1313.192,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 759070.55,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.275,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.357,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.275,
+        "roof": false
+      }
+    },
+    {
+      "x": 57.338,
+      "y": 221.687,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 221.687,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 128142.737,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.629,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.118,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.629,
+        "roof": false
+      }
+    },
+    {
+      "x": 106.631,
+      "y": 206.569,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 206.569,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 119403.936,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.748,
+        "roof": true
+      },
+      "costn": {
+        "y": 2.273,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.748,
+        "roof": true
+      }
+    },
+    {
+      "x": 75.518,
+      "y": 590.857,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 590.857,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 341535.669,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.611,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.795,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.611,
+        "roof": false
+      }
+    },
+    {
+      "x": 50.324,
+      "y": 786.725,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "h100",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 786.725,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 454754.458,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.459,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.597,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.459,
+        "roof": false
+      }
+    },
+    {
+      "x": 98.255,
+      "y": 379.309,
+      "conc": 8,
+      "tp": 4,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 379.309,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 219253.995,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.033,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.274,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.172,
+        "roof": false
+      }
+    },
+    {
+      "x": 101.322,
+      "y": 195.335,
+      "conc": 4,
+      "tp": 4,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 195.335,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 112910.467,
+        "roof": false
+      },
+      "costh": {
+        "y": 2.005,
+        "roof": false
+      },
+      "costn": {
+        "y": 2.474,
+        "roof": false
+      },
+      "costr": {
+        "y": 2.275,
+        "roof": false
+      }
+    },
+    {
+      "x": 46.513,
+      "y": 358.775,
+      "conc": 4,
+      "tp": 1,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 358.775,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 207384.281,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.092,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.347,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.239,
+        "roof": false
+      }
+    },
+    {
+      "x": 118.668,
+      "y": 229.51,
+      "conc": 8,
+      "tp": 8,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 229.51,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 132665.01,
+        "roof": true
+      },
+      "costh": {
+        "y": 1.707,
+        "roof": true
+      },
+      "costn": {
+        "y": 2.106,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.936,
+        "roof": true
+      }
+    },
+    {
+      "x": 26.436,
+      "y": 3256.376,
+      "conc": 64,
+      "tp": 1,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 3256.376,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1882298.25,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.12,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.148,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.136,
+        "roof": true
+      }
+    },
+    {
+      "x": 44.273,
+      "y": 683.486,
+      "conc": 8,
+      "tp": 1,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 683.486,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 395078.684,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.573,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.707,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.65,
+        "roof": false
+      }
+    },
+    {
+      "x": 90.704,
+      "y": 706.565,
+      "conc": 16,
+      "tp": 4,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 706.565,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 408419.126,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.554,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.684,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.629,
+        "roof": true
+      }
+    },
+    {
+      "x": 48.718,
+      "y": 1511.255,
+      "conc": 32,
+      "tp": 2,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1511.255,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 873557.825,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.259,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.32,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.294,
+        "roof": false
+      }
+    },
+    {
+      "x": 61.57,
+      "y": 1900.264,
+      "conc": 64,
+      "tp": 4,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1900.264,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1098418.42,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.206,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.254,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.234,
+        "roof": true
+      }
+    },
+    {
+      "x": 63.506,
+      "y": 990.097,
+      "conc": 16,
+      "tp": 2,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 990.097,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 572310.449,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.396,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.488,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.449,
+        "roof": false
+      }
+    },
+    {
+      "x": 125.92,
+      "y": 120.516,
+      "conc": 4,
+      "tp": 8,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 120.516,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 69662.558,
+        "roof": true
+      },
+      "costh": {
+        "y": 3.25,
+        "roof": true
+      },
+      "costn": {
+        "y": 4.011,
+        "roof": true
+      },
+      "costr": {
+        "y": 3.688,
+        "roof": true
+      }
+    },
+    {
+      "x": 69.23,
+      "y": 1073.515,
+      "conc": 32,
+      "tp": 4,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1073.515,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 620529.016,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.365,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.45,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.414,
+        "roof": false
+      }
+    },
+    {
+      "x": 40.498,
+      "y": 1264.716,
+      "conc": 16,
+      "tp": 1,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1264.716,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 731049.979,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.31,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.382,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.351,
+        "roof": false
+      }
+    },
+    {
+      "x": 77.462,
+      "y": 1195.945,
+      "conc": 64,
+      "tp": 8,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1195.945,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 691297.472,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.327,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.404,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.372,
+        "roof": true
+      }
+    },
+    {
+      "x": 102.714,
+      "y": 401.525,
+      "conc": 16,
+      "tp": 8,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 401.525,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 232095.199,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.975,
+        "roof": true
+      },
+      "costn": {
+        "y": 1.204,
+        "roof": true
+      },
+      "costr": {
+        "y": 1.107,
+        "roof": true
+      }
+    },
+    {
+      "x": 90.242,
+      "y": 697.232,
+      "conc": 32,
+      "tp": 8,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 697.232,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 403024.147,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.562,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.693,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.637,
+        "roof": false
+      }
+    },
+    {
+      "x": 71.598,
+      "y": 276.263,
+      "conc": 4,
+      "tp": 2,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 276.263,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 159689.729,
+        "roof": false
+      },
+      "costh": {
+        "y": 1.418,
+        "roof": false
+      },
+      "costn": {
+        "y": 1.75,
+        "roof": false
+      },
+      "costr": {
+        "y": 1.609,
+        "roof": false
+      }
+    },
+    {
+      "x": 69.133,
+      "y": 533.996,
+      "conc": 8,
+      "tp": 2,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 533.996,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 308668.28,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.733,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.905,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.832,
+        "roof": false
+      }
+    },
+    {
+      "x": 29.941,
+      "y": 1853.541,
+      "conc": 32,
+      "tp": 1,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 1853.541,
+        "roof": false
+      },
+      "tpPerMw": {
+        "y": 1071411.263,
+        "roof": false
+      },
+      "costh": {
+        "y": 0.211,
+        "roof": false
+      },
+      "costn": {
+        "y": 0.261,
+        "roof": false
+      },
+      "costr": {
+        "y": 0.24,
+        "roof": false
+      }
+    },
+    {
+      "x": 43.418,
+      "y": 2674.497,
+      "conc": 64,
+      "tp": 2,
+      "hwKey": "h200",
+      "precision": "fp8",
+      "tpPerGpu": {
+        "y": 2674.497,
+        "roof": true
+      },
+      "tpPerMw": {
+        "y": 1545952.164,
+        "roof": true
+      },
+      "costh": {
+        "y": 0.146,
+        "roof": true
+      },
+      "costn": {
+        "y": 0.181,
+        "roof": true
+      },
+      "costr": {
+        "y": 0.166,
+        "roof": true
+      }
+    }
+  ]
+}

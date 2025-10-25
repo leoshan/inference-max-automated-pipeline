@@ -23,18 +23,43 @@ class APIDataCollector:
 
     def normalize_model_name(self, model: str) -> str:
         """标准化模型名称用于URL"""
-        return model.lower().replace(' ', '-').replace('.', '-')
+        normalized = model.lower().replace(' ', '-')
+        # 先处理3.3 -> 3_3，再处理其他的. -> -
+        normalized = normalized.replace('3.3', '3_3')
+        normalized = normalized.replace('.', '-')
+        return normalized
 
     def normalize_sequence_name(self, sequence: str) -> str:
         """标准化序列名称用于URL"""
         return sequence.lower().replace(' / ', '_').replace('/', '_')
 
+    def normalize_llama_sequence_name(self, sequence: str) -> str:
+        """为Llama模型标准化序列名称，匹配特定的URL格式"""
+        # 处理 "1K / 1K" -> "1k_1k", "1K / 8K" -> "1k_8k", "8K / 1K" -> "8k_1k"
+        return sequence.lower().replace(' ', '').replace('/', '_')
+
+    def _generate_url(self, model: str, sequence: str, data_type: str, precision: str = 'fp8') -> str:
+        """生成请求URL，与fetch_data方法保持一致"""
+        model_url = self.normalize_model_name(model)
+
+        if 'llama' in model_url.lower():
+            sequence_url = self.normalize_llama_sequence_name(sequence)
+            return f"{self.base_url}/{model_url}-{precision}-{sequence_url}-{data_type}.json"
+        else:
+            sequence_url = self.normalize_sequence_name(sequence)
+            return f"{self.base_url}/{model_url}-{sequence_url}-{data_type}.json"
+
     def fetch_data(self, model: str, sequence: str, data_type: str) -> Tuple[Optional[List], bool]:
         """获取指定数据"""
         model_url = self.normalize_model_name(model)
-        sequence_url = self.normalize_sequence_name(sequence)
 
-        url = f"{self.base_url}/{model_url}-{sequence_url}-{data_type}.json"
+        # 为Llama模型使用特殊的序列名称格式
+        if 'llama' in model_url.lower():
+            sequence_url = self.normalize_llama_sequence_name(sequence)
+            url = f"{self.base_url}/{model_url}-fp8-{sequence_url}-{data_type}.json"
+        else:
+            sequence_url = self.normalize_sequence_name(sequence)
+            url = f"{self.base_url}/{model_url}-{sequence_url}-{data_type}.json"
 
         try:
             response = self.session.get(url, timeout=30)
@@ -84,7 +109,7 @@ class APIDataCollector:
         model_safe = model.replace(' ', '_').replace('.', '_')
         sequence_safe = sequence.replace(' ', '_').replace('/', '___')
 
-        filename = f"{response_index:02d}_{model_safe}_{sequence_safe}_{response_index:02d}.json"
+        filename = f"{response_index:02d}_{model_safe}_{sequence_safe}_{data_type}.json"
         filepath = os.path.join(output_dir, filename)
 
         # 分析数据
@@ -98,7 +123,7 @@ class APIDataCollector:
                 'response_index': response_index,
                 'timestamp': datetime.now().isoformat(),
                 'request_id': response_index,
-                'url': f"{self.base_url}/{self.normalize_model_name(model)}-{self.normalize_sequence_name(sequence)}-{data_type}.json",
+                'url': self._generate_url(model, sequence, data_type),
                 'method': 'GET',
                 'content_type': 'application/json',
                 'data_size': len(json.dumps(data)),

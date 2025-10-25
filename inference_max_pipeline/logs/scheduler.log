@@ -181,3 +181,284 @@ AttributeError: 'InferenceMaxPipeline' object has no attribute 'pipeline_id'
 2025-10-24 02:00:46,843 - InferenceMaxPipeline - INFO - 总耗时: 0:00:40
 2025-10-24 02:00:46,843 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
 2025-10-24 02:00:46,843 - PipelineScheduler - INFO - ✅ 定时管道执行成功
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - 执行一次性管道任务
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - ============================================================
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - 执行时间: 2025-10-24 14:09:38
+2025-10-24 14:09:38,002 - PipelineScheduler - INFO - ============================================================
+2025-10-24 14:09:38,006 - InferenceMaxPipeline - INFO - Pipeline 20251024_140938 initialized
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - Configuration loaded from: config/pipeline_config.yaml
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - 开始执行 InferenceMAX 数据管道 20251024_140938
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - STEP: 数据采集
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - INFO: 开始从 InferenceMAX API 采集数据
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - 执行API数据采集...
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - 目标: 3 模型 × 3 序列
+2025-10-24 14:09:38,007 - InferenceMaxPipeline - INFO - 输出目录: json_data/raw_json_files
+2025-10-24 14:09:38,585 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_1k-e2e.json
+2025-10-24 14:09:39,207 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_1k-interactivity.json
+2025-10-24 14:09:39,821 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_8k-e2e.json
+2025-10-24 14:09:40,434 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_8k-interactivity.json
+2025-10-24 14:09:41,047 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-8k_1k-e2e.json
+2025-10-24 14:09:41,666 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-8k_1k-interactivity.json
+2025-10-24 14:09:42,287 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_01.json (150 records, 20 b200_trt)
+2025-10-24 14:09:42,916 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_01.json (150 records, 20 b200_trt)
+2025-10-24 14:09:43,537 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_02.json (150 records, 20 b200_trt)
+2025-10-24 14:09:44,156 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_02.json (150 records, 20 b200_trt)
+2025-10-24 14:09:44,803 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_03.json (149 records, 20 b200_trt)
+2025-10-24 14:09:45,424 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_03.json (149 records, 20 b200_trt)
+2025-10-24 14:09:46,046 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_01.json (106 records, 19 b200_trt)
+2025-10-24 14:09:46,675 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_01.json (106 records, 19 b200_trt)
+2025-10-24 14:09:47,358 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_02.json (65 records, 19 b200_trt)
+2025-10-24 14:09:47,975 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_02.json (65 records, 19 b200_trt)
+2025-10-24 14:09:48,595 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_03.json (95 records, 19 b200_trt)
+2025-10-24 14:09:49,213 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_03.json (95 records, 19 b200_trt)
+2025-10-24 14:09:49,715 - InferenceMaxPipeline - INFO - API采集完成，获得 18 个JSON文件
+2025-10-24 14:09:49,715 - InferenceMaxPipeline - INFO - 总记录数: 1430
+2025-10-24 14:09:49,715 - InferenceMaxPipeline - INFO - b200_trt数据: 234 条
+2025-10-24 14:09:49,716 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,716 - InferenceMaxPipeline - INFO - STEP: 数据清理
+2025-10-24 14:09:49,716 - InferenceMaxPipeline - INFO - INFO: 移除无效和小文件
+2025-10-24 14:09:49,716 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,716 - InferenceMaxPipeline - INFO - 执行数据清理...
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - 清理完成，保留 18 个有效文件
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - STEP: CSV转换
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - INFO: 将JSON数据转换为分离的CSV文件
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,738 - InferenceMaxPipeline - INFO - 执行CSV转换...
+2025-10-24 14:09:49,794 - InferenceMaxPipeline - INFO - 转换完成: Interactivity(168,783 bytes), E2E(83,903 bytes)
+2025-10-24 14:09:49,795 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,795 - InferenceMaxPipeline - INFO - STEP: CSV合并
+2025-10-24 14:09:49,795 - InferenceMaxPipeline - INFO - INFO: 将两个CSV文件合并为最终数据集
+2025-10-24 14:09:49,795 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,795 - InferenceMaxPipeline - INFO - 执行CSV合并...
+2025-10-24 14:09:49,814 - InferenceMaxPipeline - INFO - 合并完成: 最终文件大小 190,353 bytes
+2025-10-24 14:09:49,814 - InferenceMaxPipeline - INFO - 数据完整性验证通过: 1430 条记录
+2025-10-24 14:09:49,814 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,814 - InferenceMaxPipeline - INFO - STEP: 版本归档
+2025-10-24 14:09:49,815 - InferenceMaxPipeline - INFO - INFO: 保存当前版本到历史档案
+2025-10-24 14:09:49,815 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,821 - InferenceMaxPipeline - INFO - 已归档: inference_max_interactivity.csv
+2025-10-24 14:09:49,825 - InferenceMaxPipeline - INFO - 已归档: inference_max_e2e.csv
+2025-10-24 14:09:49,830 - InferenceMaxPipeline - INFO - 已归档: inference_max_merged.csv
+2025-10-24 14:09:49,830 - InferenceMaxPipeline - INFO - 已归档: SEPARATED_CSV_CONVERSION_REPORT.md
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - 已归档: CSV_MERGE_REPORT.md
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - 版本归档完成: /root/semi-bench/inference_max_pipeline/data_archive/version_20251024_140938
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - 🎉 数据管道执行成功！
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - STEP: 生成报告
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - INFO: 创建管道执行报告 (成功: True)
+2025-10-24 14:09:49,831 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:09:49,832 - InferenceMaxPipeline - INFO - 最终报告已生成: /root/semi-bench/inference_max_pipeline/reports/pipeline_report_20251024_140938.md
+2025-10-24 14:09:49,832 - InferenceMaxPipeline - INFO - 管道执行完成
+2025-10-24 14:09:49,832 - InferenceMaxPipeline - INFO - 总耗时: 0:00:11
+2025-10-24 14:09:49,832 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
+2025-10-24 14:09:49,832 - PipelineScheduler - INFO - ✅ 定时管道执行成功
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - 执行一次性管道任务
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - ============================================================
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - 执行时间: 2025-10-24 14:18:16
+2025-10-24 14:18:16,429 - PipelineScheduler - INFO - ============================================================
+2025-10-24 14:18:16,433 - InferenceMaxPipeline - INFO - Pipeline 20251024_141816 initialized
+2025-10-24 14:18:16,433 - InferenceMaxPipeline - INFO - Configuration loaded from: config/pipeline_config.yaml
+2025-10-24 14:18:16,433 - InferenceMaxPipeline - INFO - 开始执行 InferenceMAX 数据管道 20251024_141816
+2025-10-24 14:18:16,433 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:16,433 - InferenceMaxPipeline - INFO - STEP: 数据采集
+2025-10-24 14:18:16,434 - InferenceMaxPipeline - INFO - INFO: 开始从 InferenceMAX API 采集数据
+2025-10-24 14:18:16,434 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:16,434 - InferenceMaxPipeline - INFO - 执行API数据采集...
+2025-10-24 14:18:16,434 - InferenceMaxPipeline - INFO - 目标: 3 模型 × 3 序列
+2025-10-24 14:18:16,434 - InferenceMaxPipeline - INFO - 输出目录: json_data/raw_json_files
+2025-10-24 14:18:17,035 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_1k-e2e.json
+2025-10-24 14:18:17,655 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_1k-interactivity.json
+2025-10-24 14:18:18,271 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_8k-e2e.json
+2025-10-24 14:18:18,887 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-1k_8k-interactivity.json
+2025-10-24 14:18:19,507 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-8k_1k-e2e.json
+2025-10-24 14:18:20,119 - root - WARNING - HTTP 404 for https://inferencemax.semianalysis.com/data/inference-performance/llama-3-3-70b-instruct-8k_1k-interactivity.json
+2025-10-24 14:18:20,748 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_01.json (150 records, 20 b200_trt)
+2025-10-24 14:18:21,369 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_01.json (150 records, 20 b200_trt)
+2025-10-24 14:18:21,992 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_02.json (150 records, 20 b200_trt)
+2025-10-24 14:18:22,632 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_02.json (150 records, 20 b200_trt)
+2025-10-24 14:18:23,250 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_03.json (149 records, 20 b200_trt)
+2025-10-24 14:18:23,870 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_03.json (149 records, 20 b200_trt)
+2025-10-24 14:18:24,487 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_01.json (106 records, 19 b200_trt)
+2025-10-24 14:18:25,104 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_01.json (106 records, 19 b200_trt)
+2025-10-24 14:18:25,743 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_02.json (65 records, 19 b200_trt)
+2025-10-24 14:18:26,358 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_02.json (65 records, 19 b200_trt)
+2025-10-24 14:18:26,973 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_03.json (95 records, 19 b200_trt)
+2025-10-24 14:18:27,594 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_03.json (95 records, 19 b200_trt)
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - API采集完成，获得 18 个JSON文件
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - 总记录数: 1430
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - b200_trt数据: 234 条
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - STEP: 数据清理
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - INFO: 移除无效和小文件
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,096 - InferenceMaxPipeline - INFO - 执行数据清理...
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - 清理完成，保留 18 个有效文件
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - STEP: CSV转换
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - INFO: 将JSON数据转换为分离的CSV文件
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,119 - InferenceMaxPipeline - INFO - 执行CSV转换...
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - 转换完成: Interactivity(168,783 bytes), E2E(83,903 bytes)
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - STEP: CSV合并
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - INFO: 将两个CSV文件合并为最终数据集
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,176 - InferenceMaxPipeline - INFO - 执行CSV合并...
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - 合并完成: 最终文件大小 190,353 bytes
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - 数据完整性验证通过: 1430 条记录
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - STEP: 版本归档
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - INFO: 保存当前版本到历史档案
+2025-10-24 14:18:28,196 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,204 - InferenceMaxPipeline - INFO - 已归档: inference_max_interactivity.csv
+2025-10-24 14:18:28,208 - InferenceMaxPipeline - INFO - 已归档: inference_max_e2e.csv
+2025-10-24 14:18:28,212 - InferenceMaxPipeline - INFO - 已归档: inference_max_merged.csv
+2025-10-24 14:18:28,213 - InferenceMaxPipeline - INFO - 已归档: SEPARATED_CSV_CONVERSION_REPORT.md
+2025-10-24 14:18:28,213 - InferenceMaxPipeline - INFO - 已归档: CSV_MERGE_REPORT.md
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 版本归档完成: /root/semi-bench/inference_max_pipeline/data_archive/version_20251024_141816
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 🎉 数据管道执行成功！
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - STEP: 生成报告
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - INFO: 创建管道执行报告 (成功: True)
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 最终报告已生成: /root/semi-bench/inference_max_pipeline/reports/pipeline_report_20251024_141816.md
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 管道执行完成
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 总耗时: 0:00:11
+2025-10-24 14:18:28,214 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
+2025-10-24 14:18:28,214 - PipelineScheduler - INFO - ✅ 定时管道执行成功
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - Pipeline Scheduler initialized
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - 执行一次性管道任务
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - ============================================================
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - 执行时间: 2025-10-25 01:00:01
+2025-10-25 01:00:01,931 - PipelineScheduler - INFO - ============================================================
+2025-10-25 01:00:01,935 - InferenceMaxPipeline - INFO - Pipeline 20251025_010001 initialized
+2025-10-25 01:00:01,935 - InferenceMaxPipeline - INFO - Configuration loaded from: config/pipeline_config.yaml
+2025-10-25 01:00:01,935 - InferenceMaxPipeline - INFO - 开始执行 InferenceMAX 数据管道 20251025_010001
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - STEP: 数据采集
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - INFO: 开始从 InferenceMAX API 采集数据
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - 执行API数据采集...
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - 目标: 3 模型 × 3 序列
+2025-10-25 01:00:01,936 - InferenceMaxPipeline - INFO - 输出目录: json_data/raw_json_files
+2025-10-25 01:00:02,987 - root - INFO - Saved: 01_Llama_3_3_70B_Instruct_1K_____1K_e2e.json (224 records, 48 b200_trt)
+2025-10-25 01:00:03,608 - root - INFO - Saved: 01_Llama_3_3_70B_Instruct_1K_____1K_interactivity.json (224 records, 48 b200_trt)
+2025-10-25 01:00:04,239 - root - INFO - Saved: 02_Llama_3_3_70B_Instruct_1K_____8K_e2e.json (227 records, 48 b200_trt)
+2025-10-25 01:00:04,862 - root - INFO - Saved: 02_Llama_3_3_70B_Instruct_1K_____8K_interactivity.json (227 records, 48 b200_trt)
+2025-10-25 01:00:05,707 - root - INFO - Saved: 03_Llama_3_3_70B_Instruct_8K_____1K_e2e.json (227 records, 48 b200_trt)
+2025-10-25 01:00:06,723 - root - INFO - Saved: 03_Llama_3_3_70B_Instruct_8K_____1K_interactivity.json (227 records, 48 b200_trt)
+2025-10-25 01:00:07,342 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_e2e.json (150 records, 20 b200_trt)
+2025-10-25 01:00:07,962 - root - INFO - Saved: 01_gpt-oss_120B_1K_____1K_interactivity.json (150 records, 20 b200_trt)
+2025-10-25 01:00:08,582 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_e2e.json (150 records, 20 b200_trt)
+2025-10-25 01:00:09,204 - root - INFO - Saved: 02_gpt-oss_120B_1K_____8K_interactivity.json (150 records, 20 b200_trt)
+2025-10-25 01:00:10,037 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_e2e.json (149 records, 20 b200_trt)
+2025-10-25 01:00:10,866 - root - INFO - Saved: 03_gpt-oss_120B_8K_____1K_interactivity.json (149 records, 20 b200_trt)
+2025-10-25 01:00:11,484 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_e2e.json (106 records, 19 b200_trt)
+2025-10-25 01:00:12,305 - root - INFO - Saved: 01_DeepSeek_R1_0528_1K_____1K_interactivity.json (106 records, 19 b200_trt)
+2025-10-25 01:00:12,921 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_e2e.json (65 records, 19 b200_trt)
+2025-10-25 01:00:13,730 - root - INFO - Saved: 02_DeepSeek_R1_0528_1K_____8K_interactivity.json (65 records, 19 b200_trt)
+2025-10-25 01:00:14,348 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_e2e.json (95 records, 19 b200_trt)
+2025-10-25 01:00:14,965 - root - INFO - Saved: 03_DeepSeek_R1_0528_8K_____1K_interactivity.json (95 records, 19 b200_trt)
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - API采集完成，获得 18 个JSON文件
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - 总记录数: 2786
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - b200_trt数据: 522 条
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - STEP: 数据清理
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - INFO: 移除无效和小文件
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,468 - InferenceMaxPipeline - INFO - 执行数据清理...
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - 清理完成，保留 18 个有效文件
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - STEP: CSV转换
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - INFO: 将JSON数据转换为分离的CSV文件
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,496 - InferenceMaxPipeline - INFO - 执行CSV转换...
+2025-10-25 01:00:15,574 - InferenceMaxPipeline - INFO - 转换完成: Interactivity(170,420 bytes), E2E(169,697 bytes)
+2025-10-25 01:00:15,574 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,574 - InferenceMaxPipeline - INFO - STEP: CSV合并
+2025-10-25 01:00:15,574 - InferenceMaxPipeline - INFO - INFO: 将两个CSV文件合并为最终数据集
+2025-10-25 01:00:15,575 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,575 - InferenceMaxPipeline - INFO - 执行CSV合并...
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - 合并完成: 最终文件大小 191,574 bytes
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - 数据完整性验证通过: 1393 条记录
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - STEP: 版本归档
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - INFO: 保存当前版本到历史档案
+2025-10-25 01:00:15,597 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,604 - InferenceMaxPipeline - INFO - 已归档: inference_max_interactivity.csv
+2025-10-25 01:00:15,611 - InferenceMaxPipeline - INFO - 已归档: inference_max_e2e.csv
+2025-10-25 01:00:15,619 - InferenceMaxPipeline - INFO - 已归档: inference_max_merged.csv
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - 已归档: SEPARATED_CSV_CONVERSION_REPORT.md
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - 已归档: CSV_MERGE_REPORT.md
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - 版本归档完成: /root/semi-bench/inference_max_pipeline/data_archive/version_20251025_010001
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - 🎉 数据管道执行成功！
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,620 - InferenceMaxPipeline - INFO - STEP: 生成报告
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - INFO: 创建管道执行报告 (成功: True)
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - 最终报告已生成: /root/semi-bench/inference_max_pipeline/reports/pipeline_report_20251025_010001.md
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - 管道执行完成
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - 总耗时: 0:00:13
+2025-10-25 01:00:15,621 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
+2025-10-25 01:00:15,621 - PipelineScheduler - INFO - ✅ 定时管道执行成功
+2025-10-25 02:00:46,996 - PipelineScheduler - INFO - 开始执行定时任务
+2025-10-25 02:00:46,996 - PipelineScheduler - INFO - ============================================================
+2025-10-25 02:00:46,997 - PipelineScheduler - INFO - 开始执行定时数据管道
+2025-10-25 02:00:46,997 - PipelineScheduler - INFO - 执行时间: 2025-10-25 02:00:46
+2025-10-25 02:00:46,997 - PipelineScheduler - INFO - ============================================================
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - Pipeline 20251025_020046 initialized
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - Configuration loaded from: config/pipeline_config.yaml
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - 开始执行 InferenceMAX 数据管道 20251025_020046
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - STEP: 数据爬取
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - INFO: 开始从 InferenceMAX 网站爬取数据
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:00:47,001 - InferenceMaxPipeline - INFO - 执行网页数据爬取...
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - 爬取完成，获得 18 个JSON文件
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - STEP: 数据清理
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - INFO: 移除无效和小文件
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,878 - InferenceMaxPipeline - INFO - 执行数据清理...
+2025-10-25 02:01:26,906 - InferenceMaxPipeline - INFO - 清理完成，保留 18 个有效文件
+2025-10-25 02:01:26,907 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,907 - InferenceMaxPipeline - INFO - STEP: CSV转换
+2025-10-25 02:01:26,907 - InferenceMaxPipeline - INFO - INFO: 将JSON数据转换为分离的CSV文件
+2025-10-25 02:01:26,907 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,907 - InferenceMaxPipeline - INFO - 执行CSV转换...
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - 转换完成: Interactivity(170,420 bytes), E2E(169,697 bytes)
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - STEP: CSV合并
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - INFO: 将两个CSV文件合并为最终数据集
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:26,980 - InferenceMaxPipeline - INFO - 执行CSV合并...
+2025-10-25 02:01:27,006 - InferenceMaxPipeline - INFO - 合并完成: 最终文件大小 191,574 bytes
+2025-10-25 02:01:27,006 - InferenceMaxPipeline - INFO - 数据完整性验证通过: 1393 条记录
+2025-10-25 02:01:27,006 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:27,007 - InferenceMaxPipeline - INFO - STEP: 版本归档
+2025-10-25 02:01:27,007 - InferenceMaxPipeline - INFO - INFO: 保存当前版本到历史档案
+2025-10-25 02:01:27,007 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:27,014 - InferenceMaxPipeline - INFO - 已归档: inference_max_interactivity.csv
+2025-10-25 02:01:27,021 - InferenceMaxPipeline - INFO - 已归档: inference_max_e2e.csv
+2025-10-25 02:01:27,029 - InferenceMaxPipeline - INFO - 已归档: inference_max_merged.csv
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - 已归档: SEPARATED_CSV_CONVERSION_REPORT.md
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - 已归档: CSV_MERGE_REPORT.md
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - 版本归档完成: /root/semi-bench/inference_max_pipeline/data_archive/version_20251025_020046
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - 🎉 数据管道执行成功！
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - STEP: 生成报告
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - INFO: 创建管道执行报告 (成功: True)
+2025-10-25 02:01:27,030 - InferenceMaxPipeline - INFO - ==================================================
+2025-10-25 02:01:27,031 - InferenceMaxPipeline - INFO - 最终报告已生成: /root/semi-bench/inference_max_pipeline/reports/pipeline_report_20251025_020046.md
+2025-10-25 02:01:27,031 - InferenceMaxPipeline - INFO - 管道执行完成
+2025-10-25 02:01:27,031 - InferenceMaxPipeline - INFO - 总耗时: 0:00:40
+2025-10-25 02:01:27,031 - InferenceMaxPipeline - INFO - 执行状态: ✅ 成功
+2025-10-25 02:01:27,031 - PipelineScheduler - INFO - ✅ 定时管道执行成功

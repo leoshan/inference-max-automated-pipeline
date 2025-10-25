@@ -1,6 +1,123 @@
 {
   "successful_collections": [
     {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 224,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_Llama_3_3_70B_Instruct_1K_____1K_e2e.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 224,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/01_Llama_3_3_70B_Instruct_1K_____1K_interactivity.json"
+        }
+      },
+      "timestamp": "2025-10-25T01:00:01.936337"
+    },
+    {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "1K / 8K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 227,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_Llama_3_3_70B_Instruct_1K_____8K_e2e.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 227,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/02_Llama_3_3_70B_Instruct_1K_____8K_interactivity.json"
+        }
+      },
+      "timestamp": "2025-10-25T01:00:04.108849"
+    },
+    {
+      "model": "Llama 3.3 70B Instruct",
+      "sequence": "8K / 1K",
+      "data_types": {
+        "e2e": {
+          "success": true,
+          "record_count": 227,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_Llama_3_3_70B_Instruct_8K_____1K_e2e.json"
+        },
+        "interactivity": {
+          "success": true,
+          "record_count": 227,
+          "b200_trt_count": 48,
+          "hwkeys": [
+            "b200",
+            "b200_trt",
+            "h100",
+            "h200",
+            "h200_trt",
+            "mi300x",
+            "mi325x",
+            "mi355x"
+          ],
+          "filepath": "json_data/raw_json_files/03_Llama_3_3_70B_Instruct_8K_____1K_interactivity.json"
+        }
+      },
+      "timestamp": "2025-10-25T01:00:05.362441"
+    },
+    {
       "model": "gpt-oss 120B",
       "sequence": "1K / 1K",
       "data_types": {
@@ -18,7 +135,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_01.json"
+          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -34,10 +151,10 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_01.json"
+          "filepath": "json_data/raw_json_files/01_gpt-oss_120B_1K_____1K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:04:57.196607"
+      "timestamp": "2025-10-25T01:00:07.224242"
     },
     {
       "model": "gpt-oss 120B",
@@ -57,7 +174,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_02.json"
+          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -73,10 +190,10 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_02.json"
+          "filepath": "json_data/raw_json_files/02_gpt-oss_120B_1K_____8K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:04:58.846086"
+      "timestamp": "2025-10-25T01:00:08.462358"
     },
     {
       "model": "gpt-oss 120B",
@@ -96,7 +213,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_03.json"
+          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -112,10 +229,10 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_03.json"
+          "filepath": "json_data/raw_json_files/03_gpt-oss_120B_8K_____1K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:05:00.090297"
+      "timestamp": "2025-10-25T01:00:09.704897"
     },
     {
       "model": "DeepSeek R1 0528",
@@ -136,7 +253,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_01.json"
+          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -153,10 +270,10 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_01.json"
+          "filepath": "json_data/raw_json_files/01_DeepSeek_R1_0528_1K_____1K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:05:01.331609"
+      "timestamp": "2025-10-25T01:00:11.366248"
     },
     {
       "model": "DeepSeek R1 0528",
@@ -175,7 +292,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_02.json"
+          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -190,10 +307,10 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_02.json"
+          "filepath": "json_data/raw_json_files/02_DeepSeek_R1_0528_1K_____8K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:05:02.594213"
+      "timestamp": "2025-10-25T01:00:12.806060"
     },
     {
       "model": "DeepSeek R1 0528",
@@ -214,7 +331,7 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_03.json"
+          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_e2e.json"
         },
         "interactivity": {
           "success": true,
@@ -231,69 +348,32 @@
             "mi325x",
             "mi355x"
           ],
-          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_03.json"
+          "filepath": "json_data/raw_json_files/03_DeepSeek_R1_0528_8K_____1K_interactivity.json"
         }
       },
-      "timestamp": "2025-10-24T10:05:03.825564"
+      "timestamp": "2025-10-25T01:00:14.230880"
     }
   ],
-  "failed_collections": [
-    {
-      "model": "Llama 3.3 70B Instruct",
-      "sequence": "1K / 1K",
-      "data_types": {
-        "e2e": {
-          "success": false,
-          "error": "Failed to fetch data"
-        },
-        "interactivity": {
-          "success": false,
-          "error": "Failed to fetch data"
-        }
-      },
-      "timestamp": "2025-10-24T10:04:52.831988"
-    },
-    {
-      "model": "Llama 3.3 70B Instruct",
-      "sequence": "1K / 8K",
-      "data_types": {
-        "e2e": {
-          "success": false,
-          "error": "Failed to fetch data"
-        },
-        "interactivity": {
-          "success": false,
-          "error": "Failed to fetch data"
-        }
-      },
-      "timestamp": "2025-10-24T10:04:54.734897"
-    },
-    {
-      "model": "Llama 3.3 70B Instruct",
-      "sequence": "8K / 1K",
-      "data_types": {
-        "e2e": {
-          "success": false,
-          "error": "Failed to fetch data"
-        },
-        "interactivity": {
-          "success": false,
-          "error": "Failed to fetch data"
-        }
-      },
-      "timestamp": "2025-10-24T10:04:55.970875"
-    }
-  ],
-  "total_files": 12,
-  "total_records": 1430,
-  "total_b200_trt": 234,
+  "failed_collections": [],
+  "total_files": 18,
+  "total_records": 2786,
+  "total_b200_trt": 522,
   "model_stats": {
     "Llama 3.3 70B Instruct": {
-      "files": 0,
-      "records": 0,
-      "b200_trt": 0,
-      "hwkeys": [],
-      "successful_combinations": 0
+      "files": 6,
+      "records": 1356,
+      "b200_trt": 288,
+      "hwkeys": [
+        "b200",
+        "b200_trt",
+        "h100",
+        "h200",
+        "h200_trt",
+        "mi300x",
+        "mi325x",
+        "mi355x"
+      ],
+      "successful_combinations": 3
     },
     "gpt-oss 120B": {
       "files": 6,
@@ -329,6 +409,6 @@
       "successful_combinations": 3
     }
   },
-  "elapsed_time": 12.225097894668579,
-  "timestamp": "2025-10-24T10:05:05.057088"
+  "elapsed_time": 13.52963638305664,
+  "timestamp": "2025-10-25T01:00:15.465975"
 }
